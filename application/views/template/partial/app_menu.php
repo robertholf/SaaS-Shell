@@ -81,13 +81,17 @@
 									<li><a href="/">Dashboard</a></li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-											Pages <b class="caret"></b>
+											SEO  <span class="badge badge-primary">New</span><b class="caret"></b>
 										</a>
 										<ul class="dropdown-menu">
-											<li> <a href="pricing.html">Pricing</a></li>
+											<li> <a href="#">Dashboard</a></li>
+											<li> <a href="#">Link Deals</a></li>
+											<li> <a href="#">Keyword</a></li>
+											<li> <a href="#">Crawl</a></li>
 										</ul>
 									</li>
-									<li><a href="front/index.html">FrontEnd <span class="badge badge-primary">New</span></a></li>
+									<li><a href="#">Content</a></li>
+									<li><a href="#">eCommerce</a></li>
 								</ul><!-- /.nav -->
 							</div>
 						<!-- END TOP MENU -->

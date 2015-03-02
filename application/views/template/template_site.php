@@ -1,8 +1,8 @@
 <?php
 	// Load the APP header
-	$this->load->view('template/partial/app_header');
+	$this->load->view('template/partial/site_header');
 	// Load the APP menu
-	$this->load->view('template/partial/app_menu');
+	$this->load->view('template/partial/site_menu');
 
 ?>
 	<div id="main-content">
@@ -10,5 +10,5 @@
 	</div>
 <?php
 	// Load the APP footer
-	$this->load->view('template/partial/app_footer');
+	$this->load->view('template/partial/site_footer');
 ?>

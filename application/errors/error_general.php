@@ -1,62 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Error</title>
-<style type="text/css">
+	<meta charset="utf-8">
+	<title>Error</title>
 
-::selection{ background-color: #E13300; color: white; }
-::moz-selection{ background-color: #E13300; color: white; }
-::webkit-selection{ background-color: #E13300; color: white; }
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-body {
-	background-color: #fff;
-	margin: 40px;
-	font: 13px/20px normal Helvetica, Arial, sans-serif;
-	color: #4F5155;
-}
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/css/fonts.css">
+	<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
-a {
-	color: #003399;
-	background-color: transparent;
-	font-weight: normal;
-}
+	<!-- PAGE LEVEL PLUGINS STYLES -->
 
-h1 {
-	color: #444;
-	background-color: transparent;
-	border-bottom: 1px solid #D0D0D0;
-	font-size: 19px;
-	font-weight: normal;
-	margin: 0 0 14px 0;
-	padding: 14px 15px 10px 15px;
-}
+	<!-- Tc core CSS -->
+	<link id="qstyle" rel="stylesheet" href="/assets/css/themes/style.css">
 
-code {
-	font-family: Consolas, Monaco, Courier New, Courier, monospace;
-	font-size: 12px;
-	background-color: #f9f9f9;
-	border: 1px solid #D0D0D0;
-	color: #002166;
-	display: block;
-	margin: 14px 0 14px 0;
-	padding: 12px 10px 12px 10px;
-}
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
 
-#container {
-	margin: 10px;
-	border: 1px solid #D0D0D0;
-	-webkit-box-shadow: 0 0 8px #D0D0D0;
-}
-
-p {
-	margin: 12px 15px 12px 15px;
-}
-</style>
 </head>
-<body>
-	<div id="container">
-		<h1><?php echo $heading; ?></h1>
-		<?php echo $message; ?>
+
+<body class="error">
+	<div id="wrapper">
+		<!-- BEGIN MAIN PAGE CONTENT -->
+		<div class="error-container">
+			<div class="container">
+				<div class="error-box">
+					<h1 class="error-code"><i class="fa fa-warning smaller-50"></i> Oops <small><?php echo $heading; ?></small></h1>
+					<h3>But we are working on it!</h3>
+					<?php echo $message; ?>
+
+					<div class="space-12"></div>
+
+					<a href="/" class="btn btn-primary">Go to Home!</a>
+				</div>
+			</div>
+		</div>
+		<!-- END MAIN PAGE CONTENT -->
 	</div>
+
+	<!-- core JavaScript -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
 </body>
 </html>
