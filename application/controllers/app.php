@@ -2,16 +2,36 @@
 
 class App extends CI_Controller {
 
-	public function index()
+/*
+ * General
+ */
+	public function dashboard()
 	{
 		$data = array(
-					'content'=>'site/home', 
-					'titleseo'=>'Test > TEST Title',
-					'titleh1'=>'Test', 
-					'titlesub'=>'Testesr asdkljaskdlj  asdjkl asd sdfkjl', 
+					'content'=>'app/dashboard', 
+					'titleseo'=>'Dashboard',
+					'titleh1'=>'Dashboard', 
+					'titlesub'=>'Toolbox', 
 					'icon'=>'fa-users',
-					'class'=>'home',
+					'class'=>'dashboard',
 					);
 		$this->load->view('template/template_app',$data);
 	}
+
+/*
+ * SEO
+ */
+	public function seo_dashboard()
+	{
+		$data = array(
+					'content'=>'app/seo/dashboard', 
+					'titleseo'=>'SEO Dashboard',
+					'titleh1'=>'SEO Dashboard', 
+					'titlesub'=>'Search Engine Optimization', 
+					'icon'=>'fa-users',
+					'class'=>'seo-dashboard',
+					);
+		$this->load->view('template/template_app',$data);
+	}
+
 }

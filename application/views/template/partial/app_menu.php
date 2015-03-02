@@ -9,7 +9,7 @@
 						</button>
 						<div class="navbar-brand">
 							<a href="/">
-								<img src="assets/images/logo.png" alt="logo" class="img-responsive">
+								<img src="/assets/images/logo.png" alt="logo" class="img-responsive">
 							</a>
 						</div>
 					</div>
@@ -43,11 +43,11 @@
 								<!--User Icon-->
 								<li class="dropdown user-box">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-										<img class="img-circle" src="assets/images/user.jpg" alt=""> <span class="user-info">Your Name</span> <b class="caret"></b>
+										<img class="img-circle" src="/assets/images/user.jpg" alt=""> <span class="user-info">Your Name</span> <b class="caret"></b>
 									</a>
 									<ul class="dropdown-menu dropdown-user">
 										<li>
-											<a href="profile.html">
+											<a href="#">
 												<i class="fa fa-user"></i> My Profile
 											</a>
 										</li>
@@ -79,6 +79,15 @@
 								<!-- .nav -->
 								<ul class="nav navbar-left navbar-nav">
 									<li><a href="/">Dashboard</a></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+											Tech<b class="caret"></b>
+										</a>
+										<ul class="dropdown-menu">
+											<li> <a href="#">QA</a></li>
+											<li> <a href="#">Crawl</a></li>
+										</ul>
+									</li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 											SEO  <span class="badge badge-primary">New</span><b class="caret"></b>

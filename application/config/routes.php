@@ -30,7 +30,9 @@
  * App
  */
 
-	$route['dashboard'] = "app/index";
+	$route['dashboard'] = "app/dashboard";
+	// SEO
+	$route['seo/dashboard'] = "app/seo_dashboard";
 
 
 /*
