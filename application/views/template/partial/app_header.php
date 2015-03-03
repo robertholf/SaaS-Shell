@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title><?php echo $titleseo; ?></title>
+	<title><?php echo (isset($titleseo) ? $titleseo : 'Welcome') ?></title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
@@ -13,12 +13,9 @@
 	<link rel="stylesheet" href="/assets/css/fonts.css">
 	<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
-	<!-- Tc core CSS -->
-	<link id="qstyle" rel="stylesheet" href="/assets/css/themes/style.css">
-
-	<!-- Add custom CSS here -->
-
-	<!-- End custom CSS here -->
+	<!-- Template CSS -->
+	<link rel="stylesheet" href="/assets/css/app/style.css">
+	<link rel="stylesheet" href="/assets/css/app/dashboard.css">
 
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>

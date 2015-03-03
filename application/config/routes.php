@@ -32,7 +32,8 @@
 
 	$route['dashboard'] = "app/dashboard";
 	// SEO
-	$route['seo/dashboard'] = "app/seo_dashboard";
+	$route['seo'] = "app/seo_dashboard";
+	$route['seo/linkdeals'] = "app/seo_linkdeals";
 
 
 /*

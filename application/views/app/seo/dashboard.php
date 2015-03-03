@@ -1,4 +1,92 @@
+	<div class="row">
 
+		<div class="col-sm-6 col-md-3">
+			<div class="widget bg-error">
+				<a href="/" class="body">
+					<div class="background-icon-right">
+						<span class="fa fa-exclamation-circle"></span>
+					</div>
+					<h3>500 Errors</h3>
+					<p>There are currently <strong>10</strong> identified status errors.</p>
+				</a>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-3">
+			<div class="widget bg-error">
+				<a href="/" class="body">
+					<div class="background-icon-right">
+						<span class="fa fa-exclamation-circle"></span>
+					</div>
+					<h3>4XX Errors</h3>
+					<p>There are currently <strong>10</strong> identified status errors.</p>
+				</a>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-3">
+			<div class="widget bg-warning">
+				<a href="/" class="body">
+					<div class="background-icon-right">
+						<span class="fa fa-exclamation-triangle"></span>
+					</div>
+					<h3>Info</h3>
+					<p>This alert needs your attention, but it's not super important.</p>
+				</a>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-3">
+			<div class="widget bg-success">
+				<div class="body">
+					<div class="background-icon-right">
+						<span class="fa fa-check"></span>
+					</div>
+					
+					<h3>Heading</h3>
+					<p>
+						<a href="#">Neque porro hey bro like you liked mine works follow me here to keep updated.</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-3">
+			<div class="widget bg-info">
+				<div class="body">
+					<div class="background-icon-right">
+						<span class="fa fa-info-circle"></span>
+					</div>
+					
+					<h3>Heading</h3>
+					<p>
+						<a href="#">Neque porro hey bro like you liked mine works follow me here to keep updated.</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-sm-6 col-md-3">
+			<div class="widget bg-gray">
+				<div class="body">
+					<div class="background-icon-right">
+						<span class="fa fa-cog"></span>
+					</div>
+					
+					<h3>Heading</h3>
+					<p>
+						<a href="#">Neque porro hey bro like you liked mine works follow me here to keep updated.</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+<br />
 		<div class="panel panel-info">
 			<div class="panel-heading">
 				<h3 class="panel-title">Diagnostics</h3>

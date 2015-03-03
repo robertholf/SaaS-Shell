@@ -8,9 +8,24 @@
 							<i class="fa fa-bars"></i>
 						</button>
 						<div class="navbar-brand">
-							<a href="/">
-								<img src="/assets/images/logo.png" alt="logo" class="img-responsive">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								<span class="brand-info">AutoAnything</span> <b class="caret"></b>
 							</a>
+							<ul class="dropdown-menu dropdown-brand">
+								<li class="brand-switch">
+									Switch Active Brand
+								</li>
+								<li class="brand-brands">
+									<a href="#">
+										<i class="fa fa-random"></i> AutoZone
+									</a>
+								</li>
+								<li class="brand-create">
+									<a href="#">
+										<i class="fa fa-plus"></i> Create New Brand
+									</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 					<!-- END BRAND HEADING -->
@@ -39,6 +54,7 @@
 									</a>
 								</li>
 								-->
+
 
 								<!--User Icon-->
 								<li class="dropdown user-box">
@@ -78,7 +94,6 @@
 							<div class="collapse navbar-collapse top-collapse">
 								<!-- .nav -->
 								<ul class="nav navbar-left navbar-nav">
-									<li><a href="/">Dashboard</a></li>
 									<li class="dropdown">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 											Tech<b class="caret"></b>
@@ -93,10 +108,9 @@
 											SEO  <span class="badge badge-primary">New</span><b class="caret"></b>
 										</a>
 										<ul class="dropdown-menu">
-											<li> <a href="#">Dashboard</a></li>
-											<li> <a href="#">Link Deals</a></li>
+											<li> <a href="/seo">Dashboard</a></li>
+											<li> <a href="/seo/linkdeals">Link Deals</a></li>
 											<li> <a href="#">Keyword</a></li>
-											<li> <a href="#">Crawl</a></li>
 										</ul>
 									</li>
 									<li><a href="#">Content</a></li>
@@ -191,12 +205,12 @@
 							<div class="col-lg-12">
 								<!-- BEGIN BREADCRUMB -->
 								<div class="breadcrumbs">
+									<?php echo (!empty($breadcrumb)?$breadcrumb:'');?>
 									<ul class="breadcrumb">
 										<li>
-											<a href="#">Home</a>
+											<a href="/dashboard">Dashboard</a>
 										</li>
-										<li>Pages</li>
-										<li class="active">Blank</li>
+										<li class="active"><?php echo $titleseo; ?></li>
 									</ul>
 									
 									<div class="b-right hidden-xs">

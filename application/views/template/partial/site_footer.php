@@ -35,8 +35,8 @@
 						
 						<h4>Contact Us</h4>
 						<ul class="list-inline">
-							<li><i class="fa fa-phone"></i> (123) 456-7890</li>
-							<li><i class="fa fa-envelope"></i> Sale.dtp@example.com</li>
+							<li><i class="fa fa-phone"></i> (858) 609-7715</li>
+							<li><i class="fa fa-envelope"></i> rbertholf@autoanything.com</li>
 						</ul>
 						
 					</div>

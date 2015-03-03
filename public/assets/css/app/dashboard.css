@@ -1,0 +1,57 @@
+/* Active Brand */
+.navbar-header { 
+	background-color: #2a2a2a !important;
+}
+.navbar-brand {
+	padding: 7px 10px;
+}
+.navbar-brand a {
+	text-decoration: none;
+}
+
+/* Brand Dropdown */
+.dropdown-brand {
+	width: 198px !important;
+}
+.navbar-top .navbar-brand a {
+	color: #ba5d32;
+}
+.navbar-top .navbar-brand .dropdown-menu li>a, .top-navbar .navbar-brand .dropdown-menu li>a { 
+	width: 100%;
+}
+.navbar-side .side-nav li>a {
+	border-right: 0px;
+}
+.navbar-side .side-nav li>a:hover {
+	border-left: 5px solid transparent;
+	border-right: 0px;
+}
+.navbar-top .navbar-brand .brand-switch {
+	font-weight: bold;
+	font-style: italic;
+	padding: 5px 10px;
+}
+.navbar-top .navbar-brand .brand-create a {
+	font-size: 13px;
+	font-style: italic;
+	padding: 5px 10px;
+	color: #dadada;
+}
+
+/* Dashboard */
+.widget a.body {
+	text-decoration: none;
+	display: block;
+	cursor: hand;
+	height: 100px;
+}
+
+.bg-error {
+	background-color: #bd362f;
+	color: #fff;
+}
+.bg-warning {
+	background-color: #ba5d32!important;
+	color: #fff;
+}
+

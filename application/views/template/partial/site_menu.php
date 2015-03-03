@@ -4,24 +4,25 @@
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
 					<i class="fa fa-bars"></i>
 				</button>
-				<a class="navbar-brand" href="index.html">
-					<img src="../assets/images/logo-big.png" alt="logo" class="img-responsive">
+				<a class="navbar-brand" href="/">
+					eToolbox
 				</a>
 			</div>
 			<!-- Top Menu Right-->
 			<div class="nav-top">
 				<ul class="nav navbar-right">
 					<li class="visible-xs">
-						<a href="#" class="tooltip-primary" data-placement="right" data-rel="tooltip" title="+ 91 124 2250121">
+						<a href="#" class="tooltip-primary" data-placement="right" data-rel="tooltip" title="+1 858 609 7715">
 							<i class="fa fa-phone"></i>
 						</a>
 					</li>
 					<li class="hidden-xs">
 						<a href="#">
 							<i class="fa fa-phone"></i>
-							<span class="bigger-110 hidden-xs">+ 91 124 2250121</span>
+							<span class="bigger-110 hidden-xs">858.609.7715</span>
 						</a>
 					</li>
+					<!--
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 							<i class="fa fa-envelope"></i> <span class="badge up badge-primary">2</span>
@@ -37,14 +38,25 @@
 							<i class="fa fa-tasks"></i> <span class="badge up badge-info">7</span>
 						</a>
 					</li>
+					-->
 					<li class="dropdown user-box-no-images">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 							<span class="user-info"> My Account</span> <b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu dropdown-user">
 							<li>
+								<a href="/dashboard">
+									Dashboard
+								</a>
+							</li>
+							<li>
 								<a href="/login">
 									Signin
+								</a>
+							</li>
+							<li>
+								<a href="/logout">
+									Sign out
 								</a>
 							</li>
 						</ul>
@@ -109,8 +121,8 @@
 					</div>
 					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
 						<ol class="breadcrumb">
-							<li><a href="index.html">Home</a></li>
-							<li class="active">Contact us</li>
+							<li><a href="/">Home</a></li>
+							<li class="active"><?php echo $titleseo; ?></li>
 						</ol>
 					</div>
 				</div>
