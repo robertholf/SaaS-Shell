@@ -6,7 +6,7 @@
 						<div class="footer-inner">
 							<!-- basics/footer -->
 							<div class="footer-content">
-								&copy; 2015 <a href="#">You</a>, All Rights Reserved.
+								&copy; 2015 <a href="#">AutoAnything</a>, All Rights Reserved.
 							</div>
 							<!-- /basics/footer -->
 						</div>

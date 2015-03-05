@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="/assets/css/plugins/owl-carousel/owl.carousel.css">
 
 	<!-- Tc core CSS -->
-	<link id="qstyle" rel="stylesheet" href="assets/css/site/style.css">
+	<link rel="stylesheet" href="assets/css/site/style.css">
 	
 	
 	<!-- Add custom CSS here -->

@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
 	<!-- Tc core CSS -->
-	<link id="qstyle" rel="stylesheet" href="/assets/css/themes/style.css">
+	<link rel="stylesheet" href="/assets/css/app/style.css">
 
 	<!-- Add custom CSS here -->
 

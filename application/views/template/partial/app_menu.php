@@ -109,7 +109,7 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li> <a href="/seo">Dashboard</a></li>
-											<li> <a href="/seo/linkdeals">Link Deals</a></li>
+											<li> <a href="/seo/link">Links</a></li>
 											<li> <a href="#">Keyword</a></li>
 										</ul>
 									</li>
@@ -154,24 +154,38 @@
 								<h4>Navigation</h4>
 							</li>
 							<!-- END Navigation category -->
-							
 							<li>
-								<a class="active" href="/">
-									<i class="fa fa-dashboard"></i> Dashboard
+								<a class="active" href="/seo">
+									<i class="fa arrow"></i> SEO
 								</a>
 							</li>
 							<!-- BEGIN DROPDOWN -->
 							<li class="panel">
 								<a href="javascript:;" data-parent="#side" data-toggle="collapse" class="accordion-toggle" data-target="#forms">
-									<i class="fa fa-cogs"></i> Elements <span class="fa arrow"></span>
+									<i class="fa fa-link"></i> Links <span class="fa arrow"></span>
 								</a>
 									<ul class="collapse nav" id="forms">
 										<li>
-											<a href="jquery-ui.html">
-												<i class="fa fa-angle-double-right"></i> jQuery UI 
+											<a href="/seo/link">
+												<i class="fa fa-angle-double-right"></i> Overview
+											</a>
+										</li>
+										<li>
+											<a href="/seo/link/deal">
+												<i class="fa fa-angle-double-right"></i> Link Deals
+											</a>
+										</li>
+										<li>
+											<a href="/seo/link/opportunity">
+												<i class="fa fa-angle-double-right"></i> Opportunities
 											</a>
 										</li>
 									</ul>
+							</li>
+							<li class="panel">
+								<a href="javascript:;" data-parent="#side" data-toggle="collapse" class="accordion-toggle" data-target="#forms">
+									<i class="fa fa-search"></i> Keywords <span class="fa arrow"></span>
+								</a>
 							</li>
 							<!-- END DROPDOWN -->
 						</ul><!-- /.side-nav -->
@@ -206,13 +220,7 @@
 								<!-- BEGIN BREADCRUMB -->
 								<div class="breadcrumbs">
 									<?php echo (!empty($breadcrumb)?$breadcrumb:'');?>
-									<ul class="breadcrumb">
-										<li>
-											<a href="/dashboard">Dashboard</a>
-										</li>
-										<li class="active"><?php echo $titleseo; ?></li>
-									</ul>
-									
+									<!--
 									<div class="b-right hidden-xs">
 										<ul>
 											<li><a href="#" title=""><i class="fa fa-signal"></i></a></li>
@@ -226,6 +234,7 @@
 											</li>
 										</ul>
 									</div>
+									-->
 								</div>
 								<!-- END BREADCRUMB -->	
 								

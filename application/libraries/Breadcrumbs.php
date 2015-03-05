@@ -50,7 +50,7 @@ class Breadcrumbs {
 	 * @param	string $page
 	 * @param	string $href
 	 * @return	void
-	 */		
+	 */
 	function push($page, $href)
 	{
 		// no page or href provided
@@ -72,7 +72,7 @@ class Breadcrumbs {
 	 * @param	string $page
 	 * @param	string $href
 	 * @return	void
-	 */		
+	 */
 	function unshift($page, $href)
 	{
 		// no crumb provided
@@ -89,7 +89,7 @@ class Breadcrumbs {
 	 *
 	 * @access	public
 	 * @return	string
-	 */		
+	 */
 	function show()
 	{
 		if ($this->breadcrumbs) {

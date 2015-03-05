@@ -55,3 +55,140 @@
 	color: #fff;
 }
 
+.page-count { 
+}
+.pagination {
+	margin: 0px;
+}
+.pagination .active a {
+	color: #fff !important;
+}
+
+/* CRUD Search */
+
+#searchform {
+	margin-bottom: 10px;
+}
+.search-term {
+	height: 25px;
+	margin-left: 10px;
+	display: inline-block;
+	line-height: 14px;
+	padding: 5px 5px 5px 10px;
+}
+.search-term i {
+	padding-left: 10px;
+}
+
+
+/* List */
+.lists .date {
+	font-style: italic;
+	font-size: 11px;
+	padding-left: 10px;
+}
+
+/* Metrics */
+
+.btn.tile-metrics {
+  display: block;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 15px;
+  border-right: 7.5px solid #e5e5e5;
+}
+.btn.tile-metrics .tile-content-wrapper {
+  overflow: hidden;
+  padding: 10px 15px;
+  position: relative;
+}
+.btn.tile-metrics .tile-content-wrapper .tile-content {
+  font-size: 35px;
+  text-align: right;
+  font-weight: 500;
+}
+.btn.tile-metrics .tile-content-wrapper .tile-content span {
+  font-size: 25px;
+}
+.btn.tile-metrics .tile-content-wrapper small {
+  text-align: right;
+  font-size: 16px;
+  display: block;
+}
+.btn.tile-metrics {
+  background-color: #ffffff;
+}
+.btn.tile-metrics .tile-content-wrapper .fa {
+  position: absolute;
+  font-size: 57px;
+  top: 50%;
+  left: -20px;
+  margin-top: -45px;
+  font-size: 110px!important;
+  -moz-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+.btn.tile-metrics.btn-default {
+  border-color: #c93535;
+}
+.btn.tile-metrics.btn-default:hover {
+  color: #ba5d32;
+}
+/* Dark */
+.btn.tile-metrics.btn-dark,
+.btn.tile-metrics.btn-inverse {
+  border-color: #444444;
+}
+.btn.tile-metrics.btn-dark:hover,
+.btn.tile-metrics.btn-inverse:hover {
+  color: #ba5d32;
+}
+/* White */
+.btn.tile-metrics.btn-white {
+  border-color: #e5e5e5;
+}
+.btn.tile-metrics.btn-white:hover {
+  color: #ba5d32;
+}
+/* Danger */
+.btn.tile-metrics.btn-danger {
+  border-color: #a02e28;
+}
+.btn.tile-metrics.btn-danger:hover {
+  color: #bd362f;
+}
+/* Warning */
+.btn.tile-metrics.btn-warning {
+  border-color: #926840;
+}
+.btn.tile-metrics.btn-warning:hover {
+  color: #ab7a4b;
+}
+/* Primary */
+.btn.tile-metrics.btn-primary {
+  border-color: #c93535;
+}
+.btn.tile-metrics.btn-primary:hover {
+  color: #d15050;
+}
+/* Info */
+.btn.tile-metrics.btn-info {
+  border-color: #3c5b96;
+}
+.btn.tile-metrics.btn-info:hover {
+  color: #466baf;
+}
+/* Success */
+.btn.tile-metrics.btn-success {
+  border-color: #61963c;
+}
+.btn.tile-metrics.btn-success:hover {
+  color: #72af46;
+}
+

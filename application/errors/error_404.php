@@ -16,7 +16,7 @@
 	<!-- PAGE LEVEL PLUGINS STYLES -->
 
 	<!-- Tc core CSS -->
-	<link id="qstyle" rel="stylesheet" href="/assets/css/themes/style.css">
+	<link rel="stylesheet" href="/assets/css/app/style.css">
 
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>

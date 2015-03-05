@@ -16,6 +16,7 @@
 	<!-- Template CSS -->
 	<link rel="stylesheet" href="/assets/css/app/style.css">
 	<link rel="stylesheet" href="/assets/css/app/dashboard.css">
+	<link rel="stylesheet" href="/assets/css/plugins/footable/footable.min.css">
 
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>

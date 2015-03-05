@@ -16,7 +16,7 @@
 	<!-- PAGE LEVEL PLUGINS STYLES -->
 
 	<!-- Tc core CSS -->
-	<link id="qstyle" rel="stylesheet" href="/assets/css/themes/style.css">
+	<link rel="stylesheet" href="/assets/css/app/style.css">
 
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
@@ -31,12 +31,12 @@
 		<div class="error-container">
 			<div class="container">
 				<div class="error-box">
-					<h1 class="error-code"><i class="fa fa-warning smaller-50"></i> <?php echo $heading; ?> <small>Database Error</small></h1>
-					<h3><?php echo $message; ?></h3>
+					<h1 class="error-code"><i class="fa fa-warning smaller-50"></i> Ruh Roh! <small>Database Issue!</small></h1>
+					<p><?php echo $message; ?></p>
 
 					<div class="space-12"></div>
 
-					<a href="/" class="btn btn-primary">Go to Home!</a>
+					<a href="tel:4158710504" class="btn btn-primary">Call @Rob</a>
 				</div>
 			</div>
 		</div>

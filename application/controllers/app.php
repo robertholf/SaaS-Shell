@@ -37,25 +37,6 @@ class App extends CI_Controller {
 		$this->load->view('template/template_app',$data);
 	}
 
-	// Link Deals
-	public function seo_linkdeals()
-	{
-		// Load DB
-		$this->load->database();
 
-		// Query Link Deals
-		$query = $this->db->query('SELECT url_root FROM links');
-
-		$data = array(
-					'content'=>'app/seo/linkdeals', 
-					'titleseo'=>'Link Deals',
-					'titleh1'=>'Link Deals', 
-					'titlesub'=>'Manage external links', 
-					'icon'=>'fa-users',
-					'class'=>'seo seo-linkdeals',
-					'query'=>$query,
-					);
-		$this->load->view('template/template_app',$data);
-	}
 
 }
